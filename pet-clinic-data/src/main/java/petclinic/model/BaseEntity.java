@@ -2,6 +2,9 @@ package petclinic.model;
 
 import java.io.Serializable;
 
+/**
+ * BaseEntity provides Long id for all child entities.
+ */
 public class BaseEntity implements Serializable {
     private Long id;
 
